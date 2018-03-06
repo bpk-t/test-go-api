@@ -11,6 +11,12 @@ Windows環境でlambdaにアップロードするzipは専用ツールを使用�
 go.exe get -u github.com/aws/aws-lambda-go/cmd/build-lambda-zip
 ```
 
+## ライブラリのインストール
+
+```
+go get github.com/aws/aws-lambda-go/lambda
+```
+
 ## ビルド
 
 ```
